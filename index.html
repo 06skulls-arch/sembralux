@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>SembraLux</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: white;
+    }
+
+    header {
+      background: #22c55e;
+      padding: 20px;
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .hero {
+      height: 90vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                  url("https://images.unsplash.com/photo-1509395176047-4a66953fd231");
+      background-size: cover;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 50px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      max-width: 600px;
+    }
+
+    .btn {
+      margin-top: 20px;
+      padding: 15px 30px;
+      background: #22c55e;
+      border: none;
+      color: white;
+      font-size: 18px;
+      cursor: pointer;
+    }
+
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .cards {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      width: 250px;
+      border-radius: 10px;
+    }
+
+    footer {
+      background: #020617;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  SembraLux 🌱
+</header>
+
+<div class="hero">
+  <h1>Riego Inteligente Solar</h1>
+  <p>Sistema automatizado con energía solar para optimizar el uso del agua y mejorar cultivos.</p>
+  <button class="btn">Ver Proyecto</button>
+</div>
+
+<section>
+  <h2>¿Cómo funciona?</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Panel Solar</h3>
+      <p>Genera energía limpia para el sistema.</p>
+    </div>
+    <div class="card">
+      <h3>Arduino</h3>
+      <p>Controla el riego automáticamente según humedad.</p>
+    </div>
+    <div class="card">
+      <h3>Bomba de agua</h3>
+      <p>Activa el riego cuando el suelo lo necesita.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Beneficios</h2>
+  <div class="cards">
+    <div class="card">
+      <p>Ahorro de agua</p>
+    </div>
+    <div class="card">
+      <p>Energía renovable</p>
+    </div>
+    <div class="card">
+      <p>Automatización total</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Contacto</h2>
+  <p>Email: sembralux@gmail.com</p>
+</section>
+
+<footer>
+  © 2026 SembraLux
+</footer>
+
+</body>
+</html>
